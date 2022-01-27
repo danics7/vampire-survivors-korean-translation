@@ -16,3 +16,6 @@ https://drive.google.com/drive/u/0/folders/1eilXaeZVgaToD3S3EjTO2xPor0yotlS9
 오역은 pr로 올려주시던가 이슈등록해주세요
 
 코드는 이렇게 작성하고 pyinstaller를 통해서 빌드했습니다
+
+
+만약 패치가 안되었다면 무결성검사 후 한번 
