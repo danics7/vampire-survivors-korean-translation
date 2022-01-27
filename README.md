@@ -1,7 +1,13 @@
 # vampire-survivors-korean-translation
 
 ### 설치경로
+ [스팀설치경로]/Vampire Survivors/
+
+### 한글패치 다운로드
 https://drive.google.com/drive/u/0/folders/1eilXaeZVgaToD3S3EjTO2xPor0yotlS9
+
+
+---
 
 여기서 exe파일 다운받아서 쓰세요
 
