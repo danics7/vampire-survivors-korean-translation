@@ -47,7 +47,7 @@ def read_translation_file() -> dict:
                 "korean": "매 20레벨마다 투사체 추가 획득"
             },
             {
-                "original": "At least they\'re lucky.",
+                "original": "At least they\\'re lucky.",
                 "korean": "기본 무기는 검은 비둘기. 적어도 운은 좋다."
             },
             {
