@@ -63,6 +63,14 @@ def read_translation_file() -> dict:
                 "korean": "진화조건: Peachone과 Ebony Wings 8레벨 조합"
             },
             {
+                "original": "Unite Ebony Wings and Peachone.",
+                "korean": "Peachone과 Ebony Wings을 합성하세요"
+            },
+            {
+                "original": "Evolve the Garlic.",
+                "korean": "Gralic 진화"
+            },
+            {
                 "original": "Nduja Fritta Troppo. Emits cones of flames.",
                 "korean": "바라보는 방향으로 화염을 방출합니다."
             },
@@ -1195,7 +1203,7 @@ def read_translation_file() -> dict:
                         "translations": {
                             "FOREST": {
                                 "stageName": "Mad Forest",
-                                "description": "사실 성은 거짓말입니다. 무료 치킨이 있으니 그걸로 된거잖아요?",
+                                "description": "사실 성은 없습니다. 대신 공짜 치킨이 있으니 오히려 좋습니다.",
                                 "tips": "",
                                 "hyperTips": "50% 골드 보너스"
                             },
@@ -1210,7 +1218,7 @@ def read_translation_file() -> dict:
                             },
                             "LIBRARY": {
                                 "stageName": "Inlaid Library",
-                                "description": "조용하고 긴 도서관은 치킨을 위한 휴식, 명상의 장소입니다. 근데 여기 있는 Stone Mask은 어디에 쓰는거죠?",
+                                "description": "이 길고 조용한 도서관은 휴식, 명상, 그리고 치킨사냥을 위한 최적의 장소입니다.\r\n근데 이 Stone Mask는 어디에 쓰는거죠?",
                                 "tips": "",
                                 "hyperTips": "50% 골드 보너스\n10% 행운 보너스"
                             },
@@ -1569,8 +1577,8 @@ def read_translation_file() -> dict:
                                 "tips": "파워업 무시: 공격속도, 지속시간"
                             },
                             "PENTAGRAM": {
-                                "name": "오망성",
-                                "description": "시야 내 모든 적을 말살합니다.",
+                                "name": "Pentagram",
+                                "description": "시야 내 모든 것을 제거합니다.",
                                 "tips": "추천: 쿨타임, 행운"
                             },
                             "SIRE": {
@@ -2010,7 +2018,7 @@ def read_translation_file() -> dict:
                                 "description": "Cross 진화"
                             },
                             "EvolveKingBible": {
-                                "description": "King Bible진화"
+                                "description": "King Bible 진화"
                             },
                             "EvolveFireWand": {
                                 "description": "Fire Wand 진화"
