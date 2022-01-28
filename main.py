@@ -34,10 +34,16 @@ if __name__ == '__main__':
 
     # 번역부분 업데이트
     for row in lang['lang']:
-        data = json.dumps(row['data'], ensure_ascii=False)
+        f = open("./resources/app/.webpack/renderer/assets/lang/%s" % row['fileName'], 'r', encoding='UTF-8-sig')
+        langFile = json.loads(f.read())
+        translationLang = row['translations']
+        f.close()
+        for key, val in langFile['en']['translations'].items():
+            langFile['en']['translations'][key] = translationLang[key]
+        data = json.dumps(langFile, ensure_ascii=False)
         f = open("./resources/app/.webpack/renderer/assets/lang/%s" % row['fileName'], 'w', encoding='UTF-8-sig')
         f.write(data)
         f.close()
 
-    print("%d글자 -> %d글자로 총 길이 변경됨. 아마도 패치된듯? \r\n패치가 안되었다면 무결성검사 후 다시 실행해주세요~" % (len(originalCodes), len(codes)))
+    print("%d글자 -> %d글자로 총 길이 변경됨. %d개 lang파일 변경.\r\n패치가 안되었다면 무결성검사 후 다시 실행해주세요~" % (len(originalCodes), len(codes), len(lang['lang'])))
     close()
