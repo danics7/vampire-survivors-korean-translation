@@ -4,7 +4,7 @@
  [스팀설치경로]/Vampire Survivors/
 
 ### 한글패치 다운로드
-https://drive.google.com/drive/u/0/folders/1eilXaeZVgaToD3S3EjTO2xPor0yotlS9
+https://github.com/danics7/vampire-survivors-korean-translation/releases/latest
 
 
 ---
