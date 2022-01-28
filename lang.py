@@ -4,27 +4,27 @@ def read_translation_file() -> dict:
         "translations": [
             {
                 "original": "Attacks deal 10% more damage every 10 levels (max +50%).",
-                "korean": "기본 무기는 채찍. 매 10레벨마다 10%의 대미지 추가 (최대 +50%)."
+                "korean": "Whip. 매 10레벨마다 10%의 대미지 추가 (최대 +50%)."
             },
             {
                 "original": "Gains 10% more experience every 5 levels (max +30%).",
-                "korean": "기본 무기는 마법 지팡이. 매 5레벨마다 10%의 경험치 추가 (최대 +30%)."
+                "korean": "Magic Wand. 매 5레벨마다 10%의 경험치 추가 (최대 +30%)."
             },
             {
                 "original": "Projectiles get 10% faster every 5 levels (max +30%).",
-                "korean": "기본 무기는 룬트레이서. 매 5레벨마다 투사체가 10% 가속 (최대 +30%)."
+                "korean": "Runetracer. 매 5레벨마다 투사체가 10% 가속 (최대 +30%)."
             },
             {
                 "original": "Permanent +1 projectile (all weapons).",
-                "korean": "기본 무기는 나이프. 발사체 1개 증가."
+                "korean": "Knife. 발사체 1개 증가."
             },
             {
                 "original": "Weapon cooldown is reduced by 5% every 10 levels. (max -15%)",
-                "korean": "기본 무기는 불의 지팡이. 10레벨마다 무기 쿨다운이 5%씩 감소 (최대 -15%)."
+                "korean": "Fire Wand. 10레벨마다 무기 쿨다운이 5%씩 감소 (최대 -15%)."
             },
             {
                 "original": "Permanent +30% area. Starts with temporarily reduced cooldown.",
-                "korean": "기본 무기는 번개 반지. 범위 30% 증가. 일시적 쿨타임 매우짧음"
+                "korean": "Lightning Ring. 범위 30% 증가. 일시적 쿨타임 매우짧음"
             },
             {
                 "original": "Permanent +30% greed. Starts with temporarily increased speed.",
@@ -32,7 +32,7 @@ def read_translation_file() -> dict:
             },
             {
                 "original": "Permanent +25% pickup radius and -30 max health.",
-                "korean": "기본 무기는 마늘. 획득 반경 25% 증가. 최대 HP 30 감소."
+                "korean": "Garlic. 획득 반경 25% 증가. 최대 HP 30 감소."
             },
             {
                 "original": "Effects last longer for every 10 levels.",
@@ -40,7 +40,7 @@ def read_translation_file() -> dict:
             },
             {
                 "original": "Gets more projectiles every 20 levels (max+3).",
-                "korean": "기본 무기는 뼈. 매 20레벨마다 투사체 추가 획득 (최대 +3)."
+                "korean": "Bone. 매 20레벨마다 투사체 추가 획득 (최대 +3)."
             },
             {
                 "original": "Gets more projectiles every 20 levels.",
@@ -48,27 +48,27 @@ def read_translation_file() -> dict:
             },
             {
                 "original": "At least they\\'re lucky.",
-                "korean": "기본 무기는 검은 비둘기. 적어도 운은 좋다."
-            },
-            {
-                "original": "Soul Eater",
-                "korean": "영혼 포식자"
+                "korean": "Ebony Wings. 행운이라도 좋네요"
             },
             {
                 "original": "Evolved Garlic. Steals hearts. Power increases when recovering HP.",
-                "korean": "마늘 진화형. HP 흡수/흡수 시 위력이 증가"
+                "korean": "Garlic 진화형. HP 흡수/흡수 시 위력이 증가"
             },
             {
                 "original": "Requires: Pummarola.",
-                "korean": "진화조건 : 붉은 심장."
-            },
-            {
-                "original": "Vandalier",
-                "korean": "파괴자"
+                "korean": "진화조건: Pummarola."
             },
             {
                 "original": "Union of Ebony Wings and Peachone.",
-                "korean": "진화조건 : 하얀 비둘기 와 검은 비둘기 8레벨 조합"
+                "korean": "진화조건: Peachone과 Ebony Wings 8레벨 조합"
+            },
+            {
+                "original": "Unite Ebony Wings and Peachone.",
+                "korean": "Peachone과 Ebony Wings을 합성하세요"
+            },
+            {
+                "original": "Evolve the Garlic.",
+                "korean": "Gralic 진화"
             },
             {
                 "original": "Nduja Fritta Troppo. Emits cones of flames.",
@@ -163,64 +163,64 @@ def read_translation_file() -> dict:
 
                             },
                             "COIN": {
-                                "name": "동전",
+                                "name": "Coin",
                                 "description": "1골드를 획득합니다.",
                                 "tips": ""
                             },
                             "COINBAG1": {
-                                "name": "돈주머니",
+                                "name": "Coin Bag",
                                 "description": "10골드를 획득합니다.",
                                 "tips": ""
                             },
                             "COINBAG2": {
-                                "name": "큰 돈주머니",
+                                "name": "Big Coin Bag",
                                 "description": "25골드를 획득합니다.",
                                 "tips": ""
                             },
                             "COINBAGMAX": {
-                                "name": "거대한 돈주머니",
+                                "name": "Rich Coin bag",
                                 "description": "100골드를 획득합니다.",
                                 "tips": "행운이 높을수록 드랍될 확률이 높아집니다."
                             },
                             "GEM": {
-                                "name": "경험치 보석",
+                                "name": "Experience Gem",
                                 "description": "경험치가 증가합니다.",
                                 "tips": ""
                             },
                             "CLOVER": {
-                                "name": "작은 클로버",
+                                "name": "Little Clover",
                                 "description": "행운이 10% 증가합니다.",
                                 "tips": ""
                             },
                             "TREASURE": {
-                                "name": "보물 상자",
+                                "name": "Treasure Chest",
                                 "description": "코인과 장비를 얻을 수 있습니다. 강한 몬스터를 처치 시 생성됩니다.",
                                 "tips": "행운이 높을수록 드랍될 확률이 높아집니다."
                             },
 
                             "ROSARY": {
-                                "name": "묵주",
+                                "name": "Rosary",
                                 "description": "시야 내 모든 것을 삭제합니다.",
                                 "tips": "행운이 높을수록 드랍될 확률이 높아집니다."
                             },
                             "VACUUM": {
-                                "name": "흡입기",
+                                "name": "Vacuum",
                                 "description": "모든 경험치 구슬을 획득합니다.",
                                 "tips": "행운이 높을수록 드랍될 확률이 높아집니다."
                             },
                             "OROLOGION": {
-                                "name": "시계",
+                                "name": "Orologion",
                                 "description": "10초간 모든 적을 얼립니다.",
                                 "tips": "행운이 높을수록 드랍될 확률이 높아집니다."
                             },
                             "ROAST": {
-                                "name": "치킨",
+                                "name": "Floor Chicken",
                                 "description": "체력 30을 회복합니다.",
                                 "tips": "행운이 높을수록 드랍될 확률이 높아집니다."
                             },
 
                             "WEAPON": {
-                                "name": "무기",
+                                "name": "Weapon",
                                 "description": "NA",
                                 "tips": ""
                             },
@@ -887,60 +887,60 @@ def read_translation_file() -> dict:
                         "api": "english",
                         "translations": {
                             "POWER": {
-                                "name": "힘",
+                                "name": "Might",
                                 "description": "레벨 당 데미지 5% 증가 (최대 +25%)"
                             },
                             "REGEN": {
-                                "name": "회복",
+                                "name": "Recovery",
                                 "description": "레벨 당 초당 0.1HP 회복 (최대 0.5)"
                             },
                             "MAXHEALTH": {
-                                "name": "최대 체력",
+                                "name": "Max Health",
                                 "description": "레벨 당 최대체력 10% 증가 (최대 +30%)"
                             },
                             "ARMOR": {
-                                "name": "갑옷",
+                                "name": "Armor",
                                 "description": "레벨 당 받는 데미지 1 감소 (최대 -3)"
                             },
                             "AREA": {
-                                "name": "범위",
+                                "name": "Area",
                                 "description": "레벨 당 공격 범위 5% 증가(최대 +10%)"
                             },
                             "SPEED": {
-                                "name": "공격속도",
+                                "name": "Speed",
                                 "description": "레벨 당 투사체 속도 10% 증가 (최대 20%)"
                             },
                             "COOLDOWN": {
-                                "name": "쿨타임",
+                                "name": "Cooldown",
                                 "description": "레벨 당 쿨타임 2.5% 감소 (최대 5%)"
                             },
                             "DURATION": {
-                                "name": "지속",
+                                "name": "Duration",
                                 "description": "레벨 당 무기 효과 지속시간 15% 증가 (최대 +30%)"
                             },
 
                             "AMOUNT": {
-                                "name": "투사체",
+                                "name": "Amount",
                                 "description": "투사체 1개 증가 (모든 무기)"
                             },
                             "MOVESPEED": {
-                                "name": "이동속도",
+                                "name": "MoveSpeed",
                                 "description": "레벨 당 이동속도 5% 증가 (최대 10%)"
                             },
                             "MAGNET": {
-                                "name": "자석",
+                                "name": "Magnet",
                                 "description": "레벨 당 획득 범위 25% 증가 (최대 +50%)"
                             },
                             "LUCK": {
-                                "name": "행운",
+                                "name": "Luck",
                                 "description": "레벨 당 행운 10% 증가 (최대 +30%)"
                             },
                             "GROWTH": {
-                                "name": "성장",
+                                "name": "Growth",
                                 "description": "레벨 당 경험치 획득량 3% 증가 (최대 15%)"
                             },
                             "GREED": {
-                                "name": "탐욕",
+                                "name": "Greed",
                                 "description": "레벨 당 골드 획득량 10% 증가 (최대 +50%)"
                             },
                             "CURSE": {
@@ -950,11 +950,11 @@ def read_translation_file() -> dict:
 
                             },
                             "SHIELD": {
-                                "name": "방어막",
+                                "name": "Shield",
                                 "description": "Prevents damage for one attack. Stacks with Laurel."
                             },
                             "REVIVAL": {
-                                "name": "부활",
+                                "name": "Revival",
                                 "description": "50% 체력으로 부활"
                             },
                             "LEVELUP": {
@@ -1202,13 +1202,13 @@ def read_translation_file() -> dict:
                         "api": "english",
                         "translations": {
                             "FOREST": {
-                                "stageName": "매드 포레스트",
-                                "description": "사실 성은 거짓말입니다. 무료 치킨이 있으니 그걸로 된거잖아요?",
+                                "stageName": "Mad Forest",
+                                "description": "사실 성은 없습니다. 대신 공짜 치킨이 있으니 오히려 좋습니다.",
                                 "tips": "",
                                 "hyperTips": "50% 골드 보너스"
                             },
                             "SINKING": {
-                                "stageName": "오래된 유적",
+                                "stageName": "Old Sanctuary",
                                 "description": "그리스의 침몰하고 있는 유적을 빨리 확인해야합니다. 전설에 따르면 이 벽에 치킨이 잠들어있다더군요.",
                                 "tips": "",
                                 "hyperTips": "골드 배율 : x1.5"
@@ -1217,8 +1217,8 @@ def read_translation_file() -> dict:
 
                             },
                             "LIBRARY": {
-                                "stageName": "무늬 도서관",
-                                "description": "조용하고 긴 도서관은 치킨을 위한 휴식, 명상의 장소입니다. 근데 여기 있는 돌가면은 어디에 쓰는거죠?",
+                                "stageName": "Inlaid Library",
+                                "description": "이 길고 조용한 도서관은 휴식, 명상, 그리고 치킨사냥을 위한 최적의 장소입니다.\r\n근데 이 Stone Mask는 어디에 쓰는거죠?",
                                 "tips": "",
                                 "hyperTips": "50% 골드 보너스\n10% 행운 보너스"
                             },
@@ -1232,7 +1232,7 @@ def read_translation_file() -> dict:
 
                             },
                             "GREENACRES": {
-                                "stageName": "평원",
+                                "stageName": "Green Acres",
                                 "description": "♬ 아빠를 위한 교재 아이를 위한 잡지 ♬ 기회를 놓치지 마세요 ♬",
                                 "tips": "",
                                 "hyperTips": "50% 골드 보너스 \n10% 행운 보너스"
@@ -1476,189 +1476,189 @@ def read_translation_file() -> dict:
                         "api": "english",
                         "translations": {
                             "WHIP": {
-                                "name": "채찍",
-                                "description": "채찍을 휘둘러 공격합니다. 적을 관통합니다.",
-                                "tips": "공격속도, 무기 효과 지속 시간 미적용."
+                                "name": "Whip",
+                                "description": "적을 관통합니다.",
+                                "tips": "파워업 무시: 공격속도, 지속시간"
                             },
                             "VAMPIRICA": {
-                                "name": "피눈물",
-                                "description": "채찍 진화형. 치명타 공격과 흡혈이 추가됩니다.",
-                                "tips": "진화조건 : 검은 심장 필요."
+                                "name": "Bloody Tear",
+                                "description": "Whip 진화형. 치명타 공격과 흡혈이 추가됩니다.",
+                                "tips": "진화조건: Hollow Heart"
                             },
                             "MAGIC_MISSILE": {
-                                "name": "마법 지팡이",
-                                "description": "근처의 적을 자동으로 공격합니다. 짧은 딜레이가 있습니다.",
-                                "tips": "무기 효과 지속 시간 미적용."
+                                "name": "Magic Wand",
+                                "description": "근처의 적을 공격합니다. 짧은 딜레이가 있습니다.",
+                                "tips": "파워업 무시: 지속시간"
                             },
                             "HOLY_MISSILE": {
-                                "name": "신성한 지팡이",
-                                "description": "마법 지팡이 진화형. 딜레이가 사라집니다.",
-                                "tips": "진화조건 : 빈 책 필요."
+                                "name": "Holy Wand",
+                                "description": "Magic Wand 진화형. 딜레이가 사라집니다.",
+                                "tips": "진화조건: Empty tome"
                             },
                             "AXE": {
-                                "name": "도끼",
-                                "description": "머리 위로 도끼를 던져 공격합니다.",
-                                "tips": "무기 효과 지속 시간 미적용"
+                                "name": "Axe",
+                                "description": "머리 위로 던져 공격합니다.",
+                                "tips": "파워업 무시: 지속시간"
                             },
                             "SCYTHE": {
-                                "name": "죽음의 나선",
-                                "description": "도끼 진화형. 이제 적을 관통합니다.",
-                                "tips": "진화조건 : 촛대 필요."
+                                "name": "Death Spiral",
+                                "description": "Axe 진화형. 적을 관통합니다.",
+                                "tips": "진화조건: Candelabrador"
                             },
                             "KNIFE": {
-                                "name": "나이프",
-                                "description": "바라보는 방향으로 칼날을 발사합니다. 짧은 딜레이가 있습니다.",
-                                "tips": "무기 효과 지속 시간 미적용."
+                                "name": "Knife",
+                                "description": "바라보는 방향으로 발사합니다. 짧은 딜레이가 있습니다.",
+                                "tips": "파워업 무시: 지속시간"
                             },
                             "THOUSAND": {
-                                "name": "천 개의 칼날",
-                                "description": "나이프 진화형. 딜레이가 사라집니다.",
-                                "tips": "진화조건 : 팔 보호구 필요"
+                                "name": "Thousand Edge",
+                                "description": "Knife 진화형. 딜레이가 사라집니다.",
+                                "tips": "진화조건: Bracer"
                             },
                             "HOLYWATER": {
-                                "name": "성수",
+                                "name": "Santa Water",
                                 "description": "화염지대를 만드는 폭탄을 던집니다.",
-                                "tips": "공격속도 미적용"
+                                "tips": "파워업 무시: 공격속도"
                             },
                             "HYDROSTORM": {
 
                             },
                             "DIAMOND": {
-                                "name": "룬트레이서",
+                                "name": "Runetracer",
                                 "description": "적을 관통하고 튕기는 화살을 발사합니다.",
-                                "tips": "추천 : 공격속도, 무기 효과 지속 시간."
+                                "tips": "추천: 공격속도, 지속시간"
                             },
                             "FIREBALL": {
-                                "name": "불의 지팡이",
+                                "name": "Fire Wand",
                                 "description": "무작위 적에게 큰 데미지를 주는 불덩이를 발사합니다.",
-                                "tips": "무기 효과 지속 시간 미적용."
+                                "tips": "파워업 무시: 지속시간"
                             },
                             "HELLFIRE": {
-                                "name": "헬파이어",
-                                "description": "불의 지팡이 진화형. 이제 적을 관통합니다.",
-                                "tips": "진화조건 : 시금치 필요"
+                                "name": "Hellfire",
+                                "description": "Fire Wand 진화형. 이제 적을 관통합니다.",
+                                "tips": "진화조건: Spinach"
                             },
                             "HOLYBOOK": {
-                                "name": "성경",
-                                "description": "캐릭터 주위를 도는 책을 생성합니다. 짧은 딜레이가 있습니다.",
-                                "tips": "추천 : 공격속도, 범위, 지속."
+                                "name": "King Bible",
+                                "description": "주위를 맴도는 책을 생성합니다. 짧은 딜레이가 있습니다.",
+                                "tips": "추천: 공격속도, 범위, 지속시간"
                             },
                             "VESPERS": {
-                                "name": "불경한 기도문",
-                                "description": "성경 진화형. 이제 사라지지 않습니다.",
-                                "tips": "진화조건 : 주문 속박기 필요."
+                                "name": "Unholy Vespers",
+                                "description": "King Bible 진화형. 이제 사라지지 않습니다.",
+                                "tips": "진화조건: Spellbinder"
                             },
                             "CROSS": {
-                                "name": "십자가",
-                                "description": "가장 가까운 적에게 십자가를 던집니다.",
-                                "tips": "무기 효과 지속 시간 미적용"
+                                "name": "Cross",
+                                "description": "가까운 적에게 부메랑처럼 던집니다.",
+                                "tips": "파워업 무시: 지속시간"
                             },
                             "HEAVENSWORD": {
-                                "name": "천국의 검",
-                                "description": "십자가 진화형. 치명타 공격이 가능해집니다.",
-                                "tips": "진화조건 : 클로버 필요"
+                                "name": "Heaven Sword",
+                                "description": "Cross 진화형. 치명타 공격이 가능해집니다.",
+                                "tips": "진화조건: Clover"
                             },
                             "GARLIC": {
-                                "name": "마늘",
-                                "description": "캐릭터 주위의 적에게 데미지를 줍니다. 넉백저항과 빙결저항을 감소시킵니다.",
-                                "tips": "투사체, 무기 효과 지속 시간, 공격속도 미적용."
+                                "name": "Garlic",
+                                "description": "주위의 적에게 데미지를 주고 넉백저항과 빙결저항을 감소시킵니다.",
+                                "tips": "파워업 무시: 투사체 수, 지속시간, 공격속도"
                             },
                             "LAUREL": {
-                                "name": "월계수",
+                                "name": "Laurel",
                                 "description": "보호막이 생성됩니다.",
-                                "tips": "추천 : 쿨타임"
+                                "tips": "추천: 쿨타임"
                             },
                             "THORNS": {
 
                             },
                             "LIGHTNING": {
-                                "name": "번개 반지",
+                                "name": "Lightning Ring",
                                 "description": "무작위 적을 공격합니다.",
-                                "tips": "공격속도, 무기 효과 지속 시간 미적용"
+                                "tips": "파워업 무시: 공격속도, 지속시간"
                             },
                             "PENTAGRAM": {
-                                "name": "오망성",
-                                "description": "시야 내 모든 적을 말살합니다.",
-                                "tips": "추천 : 쿨타임, 행운"
+                                "name": "Pentagram",
+                                "description": "시야 내 모든 것을 제거합니다.",
+                                "tips": "추천: 쿨타임, 행운"
                             },
                             "SIRE": {
 
                             },
                             "SILF": {
-                                "name": "하얀 비둘기",
-                                "description": "범위 내 적들을 공격합니다.",
-                                "tips": "추천 : 쿨타임, 무기 효과 지속 시간"
+                                "name": "Peachone",
+                                "description": "원 안에 있는 적들에게 폭격을 가합니다.",
+                                "tips": "추천: 쿨타임, 지속시간"
                             },
                             "SILF2": {
-                                "name": "검은 비둘기",
+                                "name": "Ebony Wings",
                                 "description": "원 안에 있는 적들에게 폭격을 가합니다.",
-                                "tips": "추천 : 쿨타임, 무기 효과 지속 시간"
+                                "tips": "추천: 쿨타임, 지속시간"
                             },
                             "SILF3": {
 
                             },
                             "BONE": {
-                                "name": "뼈",
-                                "description": "공격할 때마다 튕기는 뼈를 발사합니다.",
-                                "tips": "추천 : 공격속도, 무기 효과 지속 시간"
+                                "name": "Bone",
+                                "description": "타격시 튕겨집니다.",
+                                "tips": "추천: 공격속도, 지속시간"
                             },
                             "LANCET": {
-                                "name": "시곗바늘",
+                                "name": "Clock Lancet",
                                 "description": "적을 얼립니다.",
-                                "tips": "힘, 이동. 공격속도 , 투사체, 공격범위 미적용"
+                                "tips": "파워업 무시: 데미지, 공격속도, 투사체 수, 공격범위"
                             },
 
                             "POWER": {
-                                "name": "시금치",
+                                "name": "Spinach",
                                 "description": "데미지가 10% 증가합니다."
                             },
                             "AREA": {
-                                "name": "촛대",
+                                "name": "Candelabrador",
                                 "description": "공격 범위가 10% 증가합니다."
                             },
                             "SPEED": {
-                                "name": "팔 보호대",
+                                "name": "Bracer",
                                 "description": "투사체 속도가 10% 증가합니다."
                             },
                             "COOLDOWN": {
-                                "name": "빈 책",
+                                "name": "Empty Tome",
                                 "description": "쿨타임이 8% 감소합니다."
                             },
                             "DURATION": {
-                                "name": "주문 속박기",
+                                "name": "Spellbinder",
                                 "description": "무기 효과 지속 시간이 10% 증가합니다."
                             },
 
                             "AMOUNT": {
-                                "name": "복제 반지",
+                                "name": "Duplicator",
                                 "description": "투사체 갯수가 증가합니다."
                             },
                             "MAXHEALTH": {
-                                "name": "검은 심장",
+                                "name": "Hollow Heart",
                                 "description": "최대 체력이 10% 증가합니다."
                             },
                             "ARMOR": {
-                                "name": "갑옷",
+                                "name": "Armor",
                                 "description": "받는 데미지가 1 감소합니다."
                             },
                             "MOVESPEED": {
-                                "name": "날개",
+                                "name": "Wings",
                                 "description": "이동 속도가 10% 빨라집니다."
                             },
                             "MAGNET": {
-                                "name": "어트랙터브",
+                                "name": "Attractorb",
                                 "description": "획득 범위가 증가합니다."
                             },
                             "GROWTH": {
-                                "name": "왕관",
+                                "name": "Crown",
                                 "description": "경험치 획득량이 7% 증가합니다."
                             },
                             "LUCK": {
-                                "name": "클로버",
+                                "name": "Clover",
                                 "description": "행운이 10% 증가합니다."
                             },
                             "GREED": {
-                                "name": "돌가면",
+                                "name": "Stone Mask",
                                 "description": "코인 획득량이 10% 증가합니다."
                             },
                             "REVIVAL": {
@@ -1668,7 +1668,7 @@ def read_translation_file() -> dict:
 
                             },
                             "REGEN": {
-                                "name": "붉은 심장",
+                                "name": "Pummarola",
                                 "description": "초당 0.1HP를 회복합니다."
                             },
                             "SILVER": {
@@ -1926,25 +1926,25 @@ def read_translation_file() -> dict:
                                 "description": "한 게임에서 6종류의 무기 소유."
                             },
                             "GetFireWandToLevel4": {
-                                "description": "불의 지팡이 4레벨 달성."
+                                "description": "Fire Wand 4레벨 달성."
                             },
                             "GetHolyBookToLevel4": {
-                                "description": "성경 4레벨 달성."
+                                "description": "King Bible 4레벨 달성."
                             },
                             "GetHolyWaterToLevel4": {
-                                "description": "성수 4레벨 달성."
+                                "description": "Santa Water 4레벨 달성."
                             },
                             "GetLightningRingToLevel4": {
-                                "description": "번개 반지 4레벨 달성."
+                                "description": "Lightning Ring 4레벨 달성."
                             },
                             "GetMagicMissileToLevel7": {
-                                "description": "마법 지팡이 7레벨 달성."
+                                "description": "Magic Wand 7레벨 달성."
                             },
                             "GetPeachoneToLevel7": {
-                                "description": "하얀 비둘기 7레벨 달성."
+                                "description": "Peachone 7레벨 달성."
                             },
                             "GetRunetracerToLevel7": {
-                                "description": "룬트레이서 7레벨 달성."
+                                "description": "Runetracer 7레벨 달성."
                             },
                             "Survive1Minute": {
                                 "description": "1분 동안 생존."
@@ -1962,19 +1962,19 @@ def read_translation_file() -> dict:
                                 "description": "20개의 물체 파괴."
                             },
                             "Eat5PotRoast": {
-                                "description": "치킨 5개 획득."
+                                "description": "Floor Chicken 5개 획득."
                             },
                             "FindAClover": {
-                                "description": "작은 클로버 발견."
+                                "description": "Little Clover 발견."
                             },
                             "FindAVacuum": {
-                                "description": "흡입기 발견."
+                                "description": "Vaccum 발견."
                             },
                             "FindAnOrologion": {
-                                "description": "묵주 발견."
+                                "description": "Orologion 발견."
                             },
                             "FindARosary": {
-                                "description": "묵주 발견."
+                                "description": "Rosary 발견."
                             },
                             "Defeat5000Enemies": {
                                 "description": "5000마리 처치."
@@ -1983,45 +1983,45 @@ def read_translation_file() -> dict:
                                 "description": "3000마리 스켈레톤 처치."
                             },
                             "DefeatBossMadForest": {
-                                "description": "매드 포레스트에 있는 거대 푸른 베누스 처치."
+                                "description": "Mad Forest에 있는 거대 푸른 베누스 처치."
                             },
 
                             "ReachLV20InMadForest": {
-                                "description": "매드 포레스트에서 20레벨 달성."
+                                "description": "Mad Forest에서 20레벨 달성."
                             },
                             "DefeatBossLibrary": {
-                                "description": "무늬 도서관에 있는 노이페트 처치."
+                                "description": "Inlaid Library에 있는 노이페트 처치."
                             },
                             "Survive5MinutesWithKnife": {
-                                "description": "젠나로 벨파에제 캐릭터로 5분 동안 생존."
+                                "description": "Gennaro Belpaese로 5분 동안 생존."
                             },
                             "FindAStoneMask": {
-                                "description": "돌가면 발견."
+                                "description": "Stone Mask 발견."
                             },
                             "GetGarlicToLevel7": {
-                                "description": "마늘 7레벨 달성."
+                                "description": "Garlic 7레벨 달성."
                             },
 
                             "EvolveWhip": {
-                                "description": "채찍 진화"
+                                "description": "Whip 진화"
                             },
                             "EvolveMagicWand": {
-                                "description": "마법 지팡이 진화"
+                                "description": "Magic Wand 진화"
                             },
                             "EvolveKnife": {
-                                "description": "나이프 진화"
+                                "description": "Knife 진화"
                             },
                             "EvolveAxe": {
-                                "description": "도끼 진화"
+                                "description": "Axe 진화"
                             },
                             "EvolveCross": {
-                                "description": "십자가 진화"
+                                "description": "Cross 진화"
                             },
                             "EvolveKingBible": {
-                                "description": "성경진화"
+                                "description": "King Bible 진화"
                             },
                             "EvolveFireWand": {
-                                "description": "불의 지팡이 진화"
+                                "description": "Fire Wand 진화"
                             }
                         }
                     },
