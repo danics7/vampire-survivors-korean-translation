@@ -1,13 +1,12 @@
 # vampire-survivors-korean-translation
 
-### 설치경로
+## 설치경로
  [스팀설치경로]/Vampire Survivors/
 
-### 한글패치 다운로드
+## 한글패치 다운로드
 https://github.com/danics7/vampire-survivors-korean-translation/releases/latest
 
 
----
 
 여기서 exe파일 다운받아서 쓰세요
 
@@ -18,8 +17,34 @@ https://github.com/danics7/vampire-survivors-korean-translation/releases/latest
 코드는 이렇게 작성하고 pyinstaller를 통해서 빌드했습니다
 
 
-만약 패치가 안되었다면 무결성검사 후 한번 
+만약 패치가 안되었다면 무결성검사 후 한번
+
+exe에 버전정보 추가
+
+## 패치노트
+
+### v0.2.9.2
+
+1. lang파일 업데이트 시 덮어쓰기 방식이 아닌 키 검색 후 수정으로 변경 (업데이트시 버그발생할 위험이 있어 방식 변경)
+2. 일부 오역 수정
+
+### v0.2.9.1
+
+1. lang파일들도 한꺼번에 업데이트할 수 있도록 수정
+2. 배포방식 구드에서 github로 변경
+3. 고유명사 등 미번역 원문으로 나오도록 수정. (검색도 못해서 불편함)
+
+### v0.2.9.0
+
+1. 미번역분 한글패치 배포
+
+
+## 빌드방식
+
+혹시 몰라서(까먹을것같아서) 올리는 빌드명령어
+
+pip install pyinstaller 로 pyinstaller 설치 후 아래 명령어 입력
 
 ```angular2html
-pyinstaller --onefile --icon=0.ico -n VamrpireSurvivor_한글패치.exe main.py
+pyinstaller --onefile --icon=0.ico -n VamrpireSurvivor_한글패치.exe main.py --version-file version_info.txt
 ```
