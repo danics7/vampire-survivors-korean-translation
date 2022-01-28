@@ -16,7 +16,7 @@ def read_translation_file() -> dict:
             },
             {
                 "original": "Permanent +1 projectile (all weapons).",
-                "korean": "기본 무기는 나이프. 영구적으로 발사체 1개 증가 (모든 무기)."
+                "korean": "기본 무기는 나이프. 발사체 1개 증가."
             },
             {
                 "original": "Weapon cooldown is reduced by 5% every 10 levels. (max -15%)",
@@ -24,7 +24,7 @@ def read_translation_file() -> dict:
             },
             {
                 "original": "Permanent +30% area. Starts with temporarily reduced cooldown.",
-                "korean": "기본 무기는 번개 반지. 영구적으로 범위 30% 증가."
+                "korean": "기본 무기는 번개 반지. 범위 30% 증가. 일시적 쿨타임 매우짧음"
             },
             {
                 "original": "Permanent +30% greed. Starts with temporarily increased speed.",
@@ -32,7 +32,7 @@ def read_translation_file() -> dict:
             },
             {
                 "original": "Permanent +25% pickup radius and -30 max health.",
-                "korean": "기본 무기는 마늘. 영구적으로 획득 반경 25% 증가. 최대 HP 30 감소."
+                "korean": "기본 무기는 마늘. 획득 반경 25% 증가. 최대 HP 30 감소."
             },
             {
                 "original": "Effects last longer for every 10 levels.",
@@ -47,7 +47,7 @@ def read_translation_file() -> dict:
                 "korean": "매 20레벨마다 투사체 추가 획득"
             },
             {
-                "original": "At least they're lucky.",
+                "original": "At least they\'re lucky.",
                 "korean": "기본 무기는 검은 비둘기. 적어도 운은 좋다."
             },
             {
@@ -56,7 +56,7 @@ def read_translation_file() -> dict:
             },
             {
                 "original": "Evolved Garlic. Steals hearts. Power increases when recovering HP.",
-                "korean": "마늘 진화형. HP 회복 시 위력이 증가합니다."
+                "korean": "마늘 진화형. HP 흡수/흡수 시 위력이 증가"
             },
             {
                 "original": "Requires: Pummarola.",
@@ -200,7 +200,7 @@ def read_translation_file() -> dict:
 
                             "ROSARY": {
                                 "name": "묵주",
-                                "description": "시야 내 모든 적을 처치합니다.",
+                                "description": "시야 내 모든 것을 삭제합니다.",
                                 "tips": "행운이 높을수록 드랍될 확률이 높아집니다."
                             },
                             "VACUUM": {
@@ -495,7 +495,7 @@ def read_translation_file() -> dict:
                             "options_damageNumbers": "데미지 표시",
                             "options_resync": "스팀 동기화",
                             "options_successful": "설정 완료",
-                            "options_error": "오류가 있습니다.",
+                            "options_error": "오류가 발생했습니다.",
 
                             "pause_quit": "나가기",
                             "pause_resume": "되돌아가기",
@@ -907,7 +907,7 @@ def read_translation_file() -> dict:
                                 "description": "레벨 당 공격 범위 5% 증가(최대 +10%)"
                             },
                             "SPEED": {
-                                "name": "속도",
+                                "name": "공격속도",
                                 "description": "레벨 당 투사체 속도 10% 증가 (최대 20%)"
                             },
                             "COOLDOWN": {
@@ -924,7 +924,7 @@ def read_translation_file() -> dict:
                                 "description": "투사체 1개 증가 (모든 무기)"
                             },
                             "MOVESPEED": {
-                                "name": "이동 속도",
+                                "name": "이동속도",
                                 "description": "레벨 당 이동속도 5% 증가 (최대 10%)"
                             },
                             "MAGNET": {
@@ -941,7 +941,7 @@ def read_translation_file() -> dict:
                             },
                             "GREED": {
                                 "name": "탐욕",
-                                "description": "레벨 당 골드 획득략 10% 증가 (최대 +50%)"
+                                "description": "레벨 당 골드 획득량 10% 증가 (최대 +50%)"
                             },
                             "CURSE": {
 
