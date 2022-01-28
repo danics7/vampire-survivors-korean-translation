@@ -19,3 +19,7 @@ https://drive.google.com/drive/u/0/folders/1eilXaeZVgaToD3S3EjTO2xPor0yotlS9
 
 
 만약 패치가 안되었다면 무결성검사 후 한번 
+
+```angular2html
+pyinstaller --onefile --icon=0.ico -n VamrpireSurvivor_한글패치.exe main.py
+```
