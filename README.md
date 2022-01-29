@@ -19,7 +19,7 @@ https://github.com/danics7/vampire-survivors-korean-translation/releases/latest
 
 만약 패치가 안되었다면 무결성검사 후 한번
 
-exe에 버전정보 추가
+자꾸 바이러스로 잡아대서 안잡히는 방법 확인중
 
 ## 패치노트
 
