@@ -25,6 +25,12 @@ https://github.com/danics7/vampire-survivors-korean-translation/releases/latest
 
 버전은 Vampire Survivors 버전에 맞추고 한글패치 릴리즈별로 패치넘버만 올릴예정
 
+
+### v0.2.9.3 (2022-01-29)
+
+1. 바이러스 오탐지 최소화 (https://www.virustotal.com/gui/home/upload) 기준
+ps. 공식지원하게되면 업데이트 안함
+
 ### v0.2.9.2 (2022-01-29)
 
 1. lang파일 업데이트 시 덮어쓰기 방식이 아닌 키 검색 후 수정으로 변경 (업데이트시 버그발생할 위험이 있어 방식 변경)
