@@ -1,5 +1,6 @@
-# vampire-survivors-korean-translation
 # 뱀파이어 서바이버즈 한글패치
+
+정식지원하면 그때부터는 업데이트 안합니다~
 
 ## 설치경로
  [스팀설치경로]/Vampire Survivors/
