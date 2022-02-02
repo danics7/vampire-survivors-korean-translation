@@ -14,7 +14,7 @@ https://github.com/danics7/vampire-survivors-korean-translation/releases/latest
 
 오역은 pr로 올려주시던가 이슈등록해주세요
 
-코드는 이렇게 작성하고 pyinstaller를 통해서 빌드했습니다
+코드는 이렇게 작성하고 py2exe 통해서 빌드했습니다
 
 
 만약 패치가 안되었다면 무결성검사 후 한번
@@ -24,6 +24,12 @@ https://github.com/danics7/vampire-survivors-korean-translation/releases/latest
 ## 패치노트
 
 버전은 Vampire Survivors 버전에 맞추고 한글패치 릴리즈별로 패치넘버만 올릴예정
+
+
+
+### v0.2.10d.0 (2022-02-02)
+
+1. 0.2.10에 한글패치 해준다며 왜안해주냐?
 
 
 ### v0.2.9.3 (2022-01-29)
@@ -51,8 +57,8 @@ ps. 공식지원하게되면 업데이트 안함
 
 혹시 몰라서(까먹을것같아서) 올리는 빌드명령어
 
-pip install pyinstaller 로 pyinstaller 설치 후 아래 명령어 입력
+pip install py2exe 로 py2exe 설치 후 아래 명령어 입력
 
 ```angular2html
-pyinstaller --onefile --icon=0.ico -n VamrpireSurvivor_한글패치.exe main.py --version-file version_info.txt
+.\venv\Scripts\python .\setup.py py2exe
 ```
