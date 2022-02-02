@@ -30,11 +30,13 @@ https://github.com/danics7/vampire-survivors-korean-translation/releases/latest
 ### v0.2.10d.0 (2022-02-02)
 
 1. 0.2.10에 한글패치 해준다며 왜안해주냐?
+2. 첫 페이지 경고문구 및 추가캐릭터, 스테이지 한글패치
 
 
 ### v0.2.9.3 (2022-01-29)
 
 1. 바이러스 오탐지 최소화 (https://www.virustotal.com/gui/home/upload) 기준
+
 ps. 공식지원하게되면 업데이트 안함
 
 ### v0.2.9.2 (2022-01-29)
