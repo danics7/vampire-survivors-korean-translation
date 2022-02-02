@@ -1,4 +1,5 @@
 # vampire-survivors-korean-translation
+# 뱀파이어 서바이버즈 한글패치
 
 ## 설치경로
  [스팀설치경로]/Vampire Survivors/
