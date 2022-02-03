@@ -3,6 +3,22 @@ def read_translation_file() -> dict:
     return {
         "translations": [
             {
+                "original": "Revives once with 50% health.",
+                "korean": "단 한번 50% 체력으로 부활합니다."
+            },
+            {
+                "original": "Defeat a total of 100000 enemies.",
+                "korean": "총 100,000마리의 적을 처치하십시오."
+            },
+            {
+                "original": "Survive 20 minutes with Krochi",
+                "korean": "Krochi로 20분 생존하십시오"
+            },
+            {
+                "original": "Starts with 1 Revival. Gains 1 more Revival at level 33.",
+                "korean": "Cross. 추가 목숨을 가지고 시작합니다. 33레벨에 목숨을 추가 획득합니다."
+            },
+            {
                 "original": "PHOTOSENSITIVITY WARNING",
                 "korean": "광과민성요소 포함주의"
             },
@@ -44,7 +60,7 @@ def read_translation_file() -> dict:
             },
             {
                 "original": "Permanent +40% duration and speed, -40% move speed.",
-                "korean": "King Bible. 지속시간 및 공격속도 40% 증가 및 이동속도 -40%."
+                "korean": "King Bible. 지속시간 및 투사체 속도 40% 증가 및 이동속도 -40%."
             },
             {
                 "original": "Permanent +30% greed. Starts with temporarily increased speed.",
@@ -105,6 +121,18 @@ def read_translation_file() -> dict:
             {
                 "original": "60% chance to not erase items.",
                 "korean": "60% 확률로 아이템은 지우지 않습니다."
+            },
+            {
+                "original": "25% chance to not erase items.",
+                "korean": "25% 확률로 아이템은 지우지 않습니다."
+            },
+            {
+                "original": "45% chance to not erase items.",
+                "korean": "45% 확률로 아이템은 지우지 않습니다."
+            },
+            {
+                "original": "65% chance to not erase items.",
+                "korean": "65% 확률로 아이템은 지우지 않습니다."
             },
             {
                 "original": "Unlock Hyper mode for 2 stages.",
@@ -255,7 +283,7 @@ def read_translation_file() -> dict:
                     "weaponLevelUp_damage": "공격력 %0 증가\n ",
                     "weaponLevelUp_all": "[전체] ",
                     "weaponLevelUp_area": "범위 %0% 증가\n",
-                    "weaponLevelUp_speed": "공격속도 %0% 증가\n",
+                    "weaponLevelUp_speed": "투사체 속도 %0% 증가\n",
                     "weaponLevelUp_projectile": "투사체 %0개 증가\n",
                     "weaponLevelUp_projectiles": "투사체 %0개 증가\n",
                     "weaponLevelUp_enemy": "관통력 %0 증가\n",
@@ -292,7 +320,7 @@ def read_translation_file() -> dict:
 
                     "weaponCollectionPanel_name": "이름",
                     "weaponCollectionPanel_description": "설명",
-                    "weaponCollectionPanel_ignores": "범위,속도,쿨타임 미적용",
+                    "weaponCollectionPanel_ignores": "무시: 범위, 속도, 쿨타임",
                     "weaponCollectionPanel_notFound": "미발견",
 
                     "achievements_header": "달성: %0 of %1",
@@ -455,7 +483,7 @@ def read_translation_file() -> dict:
                     },
                     "SHIELD": {
                         "name": "Shield",
-                        "description": "Prevents damage for one attack. Stacks with Laurel."
+                        "description": "공격을 한번 방어합니다. Laurel의 충전횟수와 합산"
                     },
                     "REVIVAL": {
                         "name": "Revival",
@@ -516,7 +544,7 @@ def read_translation_file() -> dict:
                     "WHIP": {
                         "name": "Whip",
                         "description": "적을 관통합니다.",
-                        "tips": "파워업 무시: 공격속도, 지속시간"
+                        "tips": "파워업 무시: 투사체 속도, 지속시간"
                     },
                     "VAMPIRICA": {
                         "name": "Bloody Tear",
@@ -556,7 +584,7 @@ def read_translation_file() -> dict:
                     "HOLYWATER": {
                         "name": "Santa Water",
                         "description": "화염지대를 만드는 폭탄을 던집니다.",
-                        "tips": "파워업 무시: 공격속도"
+                        "tips": "파워업 무시: 투사체 속도"
                     },
                     "HYDROSTORM": {
 
@@ -564,7 +592,7 @@ def read_translation_file() -> dict:
                     "DIAMOND": {
                         "name": "Runetracer",
                         "description": "적을 관통하고 튕기는 화살을 발사합니다.",
-                        "tips": "추천: 공격속도, 지속시간"
+                        "tips": "추천: 투사체 속도, 지속시간"
                     },
                     "FIREBALL": {
                         "name": "Fire Wand",
@@ -579,7 +607,7 @@ def read_translation_file() -> dict:
                     "HOLYBOOK": {
                         "name": "King Bible",
                         "description": "주위를 맴도는 책을 생성합니다. 짧은 딜레이가 있습니다.",
-                        "tips": "추천: 공격속도, 범위, 지속시간"
+                        "tips": "추천: 투사체 속도, 범위, 지속시간"
                     },
                     "VESPERS": {
                         "name": "Unholy Vespers",
@@ -599,7 +627,7 @@ def read_translation_file() -> dict:
                     "GARLIC": {
                         "name": "Garlic",
                         "description": "주위의 적에게 데미지를 주고 넉백저항과 빙결저항을 감소시킵니다.",
-                        "tips": "파워업 무시: 투사체 수, 지속시간, 공격속도"
+                        "tips": "파워업 무시: 투사체 수, 지속시간, 투사체 속도"
                     },
                     "LAUREL": {
                         "name": "Laurel",
@@ -612,7 +640,7 @@ def read_translation_file() -> dict:
                     "LIGHTNING": {
                         "name": "Lightning Ring",
                         "description": "무작위 적을 공격합니다.",
-                        "tips": "파워업 무시: 공격속도, 지속시간"
+                        "tips": "파워업 무시: 투사체 속도, 지속시간"
                     },
                     "PENTAGRAM": {
                         "name": "Pentagram",
@@ -638,12 +666,12 @@ def read_translation_file() -> dict:
                     "BONE": {
                         "name": "Bone",
                         "description": "타격시 튕겨집니다.",
-                        "tips": "추천: 공격속도, 지속시간"
+                        "tips": "추천: 투사체 속도, 지속시간"
                     },
                     "LANCET": {
                         "name": "Clock Lancet",
                         "description": "적을 얼립니다.",
-                        "tips": "파워업 무시: 데미지, 공격속도, 투사체 수, 공격범위"
+                        "tips": "파워업 무시: 데미지, 투사체 속도, 투사체 수, 공격범위"
                     },
 
                     "POWER": {
@@ -781,20 +809,20 @@ def read_translation_file() -> dict:
                         "description": "Rosary 발견."
                     },
                     "Defeat5000Enemies": {
-                        "description": "5000마리 처치."
+                        "description": "5,000마리 처치."
                     },
                     "Defeat3000Skeletons": {
-                        "description": "3000마리 스켈레톤 처치."
+                        "description": "3,000마리 스켈레톤 처치."
                     },
                     "DefeatBossMadForest": {
-                        "description": "Mad Forest에 있는 거대 푸른 베누스 처치."
+                        "description": "Mad Forest에서 거대한 Blue Venus 처치."
                     },
 
                     "ReachLV20InMadForest": {
                         "description": "Mad Forest에서 20레벨 달성."
                     },
                     "DefeatBossLibrary": {
-                        "description": "Inlaid Library에 있는 노이페트 처치."
+                        "description": "Inlaid Library에 있는 Nesuferit 처치."
                     },
                     "Survive5MinutesWithKnife": {
                         "description": "Gennaro Belpaese로 5분 동안 생존."

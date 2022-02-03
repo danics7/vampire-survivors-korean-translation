@@ -61,7 +61,7 @@ if __name__ == '__main__':
         translationLang = row['translations']
         f.close()
         for key, val in langFile['en']['translations'].items():
-            langFile['en']['translations'][key] = translationLang[key]
+            langFile['en']['translations'][key] = translationLang[key] if key in translationLang else langFile['en']['translations'][key]
         data = json.dumps(langFile, ensure_ascii=False)
         f = open(langNewPath, 'w', encoding='UTF-8-sig')
         f.write(data)
@@ -69,5 +69,5 @@ if __name__ == '__main__':
         shutil.move(langNewPath, langOriginalPath)
 
     print("main.bundle.js, vendor.bundle.js(폰트수정) 변경.\r\n%d개 lang파일 변경.\r\n패치가 안되었다면 무결성검사 후 다시 실행해주세요~\r\n" % len(lang['lang']))
-    print("폰트는 메이플스토리체로 변경되었으며, 같이 압축된 Maplestory Light.ttf 파일을 실행해서 설치해주세요.")
+    print("폰트는 넥슨의 메이플스토리체로 변경되었으며, 같이 압축된 Maplestory Light.ttf 파일을 실행해서 설치해주세요.")
     close()
