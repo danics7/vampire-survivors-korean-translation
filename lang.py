@@ -8,7 +8,7 @@ def read_translation_file() -> dict:
             },
             {
                 "original": "This game contains bright flashing lights. Please immediately stop playing and consult a doctor if you experience lightheadedness, altered vision, eye or face twitching, jerking or shaking of arms or legs, disorientation, confusion, or momentary loss of awareness.\\n\\nIf you or any of your relatives have a history of seizures or epilepsy, consult a doctor before playing.",
-                "korean": "이 게임은 광점멸 요소가 있습니다. 현기증, 시력저하, 눈 혹은 안면마비, 손발저림, 방향감상실, 착란, 순간적 의식상실을 경험하셨다면 바로 플레이를 중단하시고 병원을 내원하십시오.\\n\\n발작 또는 간질의 경험 혹은 가족력이 있다면 플레이 전 의사와 상담하십시오."
+                "korean": "이 게임은 광점멸 요소가 있습니다. 현기증, 시력저하, 눈 혹은 안면마비, 손발저림, 방향감상실, 착란, 순간적 의식상실을 경험하셨다면 바로 플레이를 중단하시고 의사와 상담하십시오.\\n\\n발작 또는 간질의 경험 혹은 가족력이 있다면 플레이 전 의사와 상담하십시오."
             },
             {
                 "original": "Press anything to continue",
