@@ -12,9 +12,11 @@ https://github.com/danics7/vampire-survivors-korean-translation/releases/latest
 
 
 
-여기서 exe파일 다운받아서 쓰세요
+여기서 zip파일 다운받아서 쓰세요
 
 경로는 VampireSurvivors 디렉토리에 직접 넣으셔서 실행시키시면 됩니다.
+
+ttf 파일은 폰트(글꼴)파일이고, 설치 해도 안해도 패치엔 지장이 없지만 가독성이 좋아집니다
 
 오역은 pr로 올려주시던가 이슈등록해주세요
 
