@@ -31,6 +31,12 @@ https://github.com/danics7/vampire-survivors-korean-translation/releases/latest
 
 
 
+### v0.2.10.1 (2022-02-03)
+
+1. 폰트 추가함. zip파일 다운받아서 Maplestory Light.ttf 설치하면 됩
+2. 폰트 설치 안해도 한패는 되니까 알아서 하세요
+
+
 ### v0.2.10e.0 (2022-02-02)
 
 1. 0.2.10에 한글패치 해준다며 왜안해주냐?
