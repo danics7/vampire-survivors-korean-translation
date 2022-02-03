@@ -3,6 +3,7 @@ import py2exe
 setup(
     options={"py2exe": {
         "bundle_files": 1,
+        'compressed': 1,
         'dll_excludes': ['tcl86t.dll', 'tk86t.dll', "mswsock.dll", "powrprof.dll"],
         'excludes': ['tkinter']
     }},
