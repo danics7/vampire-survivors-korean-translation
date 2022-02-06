@@ -3,6 +3,26 @@ def read_translation_file() -> dict:
     return {
         "translations": [
             {
+                "original": "Evolved Santa Water. Damaging zones follow you and grow when they move.",
+                "korean": "Santa Water 진화형. 피해범위가 따라다니고, 움직일때 커집니다."
+            },
+            {
+                "original": "Requires: Attractorb.",
+                "korean": "진화조건: Attractorb."
+            },
+            {
+                "original": "RESTORE BACKUP",
+                "korean": "백업 복구"
+            },
+            {
+                "original": "Courier, serif, sans-serif",
+                "korean": "메이플스토리"
+            },
+            {
+                "original": "Evolve the Santa Water.",
+                "korean": "Santa Water 진화"
+            },
+            {
                 "original": "Revives once with 50% health.",
                 "korean": "단 한번 50% 체력으로 부활합니다."
             },
