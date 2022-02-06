@@ -777,7 +777,7 @@ def read_translation_file() -> dict:
                     },
                     "GROWTH": {
                         "name": "Crown",
-                        "description": "경험치 획득량이 7% 증가합니다."
+                        "description": "경험치 획득량이 8% 증가합니다."
                     },
                     "LUCK": {
                         "name": "Clover",
