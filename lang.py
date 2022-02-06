@@ -51,14 +51,6 @@ def read_translation_file() -> dict:
                 "korean": "계속하시려면 아무키나 누르십시오"
             },
             {
-                "original": "Gains 10% more damage every 10 levels (max +50%).",
-                "korean": "Whip. 매 10레벨마다 10%의 대미지 추가 (최대 +50%)."
-            },
-            {
-                "original": "Gains 10% more experience every 5 levels (max +30%).",
-                "korean": "Magic Wand. 매 5레벨마다 10%의 경험치 추가 (최대 +30%)."
-            },
-            {
                 "original": "Projectiles get 10% faster every 5 levels (max +30%).",
                 "korean": "Runetracer. 매 5레벨마다 투사체가 10% 가속 (최대 +30%)."
             },
@@ -87,16 +79,8 @@ def read_translation_file() -> dict:
                 "korean": "30% 탐욕. 일시적으로 매우 빠른 이동속도로 시작."
             },
             {
-                "original": "Permanent +25% pickup radius and -30 max health.",
-                "korean": "Garlic. 획득 반경 25% 증가. 최대 HP 30 감소."
-            },
-            {
                 "original": "Effects last longer for every 10 levels.",
                 "korean": "10레벨마다 효과 지속시간이 늘어납니다."
-            },
-            {
-                "original": "Gets more projectiles every 20 levels (max+3).",
-                "korean": "Bone. 매 20레벨마다 투사체 추가 획득 (최대 +3)."
             },
             {
                 "original": "Gets more projectiles every 20 levels.",
@@ -172,6 +156,62 @@ def read_translation_file() -> dict:
             }
         ],
         "lang": [
+            {
+                "fileName": "characterLang.json",
+                "translations": {
+                    "ANTONIO": {
+                        "description": "Whip. 매 10레벨마다 10%의 대미지 추가 (최대 +50%).",
+                        "charName": "Antonio",
+                        "surname": "Belpaese"
+                    },
+                    "IMELDA": {
+                        "description": "Magic Wand. 매 5레벨마다 10%의 경험치 추가 (최대 +30%).",
+                        "charName": "Imelda",
+                        "surname": "Belpaese"
+                    },
+                    "CIRO": {
+                        "charName": "Arca",
+                        "description": "Fire Wand. 10레벨마다 무기 쿨다운이 5%씩 감소 (최대 -15%).",
+                        "surname": "Ladonna"
+                    },
+                    "DOMMARIO": {
+                        "charName": "Dommario",
+                        "description": "King Bible. 지속시간 및 투사체 속도 40% 증가 및 이동속도 -40%."
+                    },
+                    "EXDASH": {
+                        "description": "Ebony Wings. 행운이라도 좋네요"
+                    },
+                    "GENNARO": {
+                        "charName": "Gennaro",
+                        "description": "Knife. 발사체 1개 증가.",
+                        "surname": "Belpaese"
+                    },
+                    "GERMANA": {
+                        "charName": "Clerici",
+                        "description": "Santa Water. 최대체력 30, 초당 회복량 0.5 증가. 일시적 공격범위 증가 보너스",
+                        "prefix": "Suor"
+                    },
+                    "MORTACCIO": {
+                        "charName": "Mortaccio",
+                        "description": "Bone. 매 20레벨마다 투사체 추가 획득 (최대 +3)."
+                    },
+                    "CAMILLO": {
+                        "charName": "Poe",
+                        "description": "Garlic. 획득 반경 25% 증가. 최대 HP 30 감소.",
+                        "surname": "Ratcho"
+                    },
+                    "PASQUALINA": {
+                        "charName": "Pasqualina",
+                        "description": "Runetracer. 매 5레벨마다 투사체가 10% 가속 (최대 +30%).",
+                        "surname": "Belpaese"
+                    },
+                    "PORTA": {
+                        "charName": "Porta",
+                        "description": "Lightning Ring. 범위 30% 증가. 일시적 쿨타임 매우짧음",
+                        "surname": "Ladonna"
+                    }
+                }
+            },
             {
                 "fileName": "itemLang.json",
                 "translations": {
